@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 9a5d6e48cca881b459aa9a54c31ee5f8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - dragonEggPrefab: {fileID: 5273975463218789389, guid: 5c9a84e57f318f74092b21277d182a6b, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

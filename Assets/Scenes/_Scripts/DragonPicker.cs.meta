@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 35a47e56fd3c5e840aa98cb8c09dee0e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - energyShieldPrefab: {fileID: 7243847029000805055, guid: ef6dd93597935d34ea50aa45b6398713, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
