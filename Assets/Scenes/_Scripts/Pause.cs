@@ -26,7 +26,7 @@ public class Pause : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+            SceneManager.LoadScene("Menu", LoadSceneMode.Single);
         }
     }
 }

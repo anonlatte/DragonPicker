@@ -3,8 +3,6 @@ using UnityEngine.UI;
 
 public class Ground : MonoBehaviour
 {
-    public AudioSource audioSource;
-    public AudioSource audioSourceBomb;
     public Text scoreGT;
     public FloatOS score;
 
@@ -29,19 +27,16 @@ public class Ground : MonoBehaviour
             case "Dragon Bomb":
                 Destroy(Collided);
                 apScript.BombDestroyed();
-                audioSource.Play();
                 break;
             case "Dragon Egg":
                 Destroy(Collided);
                 apScript.DragonEggDestroyed();
                 apScript.BombDestroyed();
-                audioSource.Play();
                 break;
             case "Dragon Heal":
                 Destroy(Collided);
                 apScript.DragonEggDestroyed();
                 apScript.BombDestroyed();
-                audioSource.Play();
                 break;
         }
     }
